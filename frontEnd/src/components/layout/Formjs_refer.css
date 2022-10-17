@@ -1,0 +1,45 @@
+body {
+    background: rgb(169, 224, 28);
+    background: radial-gradient(
+      circle,
+      rgb(210, 209, 222) 0%,
+      rgb(232, 237, 238) 0%,
+      rgb(194, 194, 201) 100%
+    );
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    max-width: 6000px;
+    width: 100%;
+    margin: auto;
+  }
+  .container > form {
+    width: 100%;
+    border: 30px solid #dfdfdf;
+    padding: 15px;
+    border-radius: 6px;
+    background: rgb(187, 201, 198);
+  }
+  pre {
+    width: 70%;
+    color: rgb(237, 230, 230);
+    font-size: larger;
+  }
+  
+  button {
+    background: #345cc0 !important;
+    color:white;
+    border-radius: 10px;
+  }
+  p {
+    color: red;
+  }
+  .field{
+    font-weight: bold;
+
+  }
